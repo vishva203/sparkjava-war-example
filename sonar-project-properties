@@ -1,0 +1,9 @@
+sonar.verbose=true
+sonar.organization=vishva-ademy01
+sonar.projectkey=vishva-ademy01_vishvademytrend
+sonar.projectname=vishvademytrend
+sonar.language=java
+sonar.sourceEncoding=UTF-8
+sonar.sources=.
+sonar.java.binaries=target/class
+sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
