@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        stage('Git Clone') {
+        stage('Git Clone Started') {
             steps {
                 git url: 'https://github.com/vishva203/sparkjava-war-example.git', branch: 'master'
             }
